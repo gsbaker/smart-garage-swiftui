@@ -34,6 +34,7 @@
 		D061F530282BC452004E5C25 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D08212262830FC7800F74BA1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D08212272830FD1400F74BA1 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot.png; path = ../../../Downloads/screenshot.png; sourceTree = "<group>"; };
+		D08212292830FD6E00F74BA1 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,8 @@
 		D061F50C282BC1E4004E5C25 = {
 			isa = PBXGroup;
 			children = (
+				D08212262830FC7800F74BA1 /* README.md */,
+				D08212292830FD6E00F74BA1 /* screenshot.png */,
 				D061F517282BC1E4004E5C25 /* SmartGarage */,
 				D061F516282BC1E4004E5C25 /* Products */,
 			);
@@ -74,7 +77,6 @@
 				D061F52C282BC2A1004E5C25 /* HistoryView.swift */,
 				D08212272830FD1400F74BA1 /* screenshot.png */,
 				D061F52E282BC2A8004E5C25 /* SettingsView.swift */,
-				D08212262830FC7800F74BA1 /* README.md */,
 				D061F526282BC24B004E5C25 /* IndexView.swift */,
 				D061F51C282BC1E9004E5C25 /* Assets.xcassets */,
 				D061F51E282BC1E9004E5C25 /* Preview Content */,
