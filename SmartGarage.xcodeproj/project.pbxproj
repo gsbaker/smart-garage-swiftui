@@ -17,6 +17,7 @@
 		D061F52D282BC2A1004E5C25 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061F52C282BC2A1004E5C25 /* HistoryView.swift */; };
 		D061F52F282BC2A8004E5C25 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061F52E282BC2A8004E5C25 /* SettingsView.swift */; };
 		D061F531282BC452004E5C25 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061F530282BC452004E5C25 /* MainView.swift */; };
+		D08212282830FD1500F74BA1 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = D08212272830FD1400F74BA1 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		D061F52C282BC2A1004E5C25 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		D061F52E282BC2A8004E5C25 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D061F530282BC452004E5C25 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D08212262830FC7800F74BA1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D08212272830FD1400F74BA1 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot.png; path = ../../../Downloads/screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +72,9 @@
 				D061F528282BC287004E5C25 /* ScheduleView.swift */,
 				D061F52A282BC296004E5C25 /* LiveFeedView.swift */,
 				D061F52C282BC2A1004E5C25 /* HistoryView.swift */,
+				D08212272830FD1400F74BA1 /* screenshot.png */,
 				D061F52E282BC2A8004E5C25 /* SettingsView.swift */,
+				D08212262830FC7800F74BA1 /* README.md */,
 				D061F526282BC24B004E5C25 /* IndexView.swift */,
 				D061F51C282BC1E9004E5C25 /* Assets.xcassets */,
 				D061F51E282BC1E9004E5C25 /* Preview Content */,
@@ -145,6 +150,7 @@
 			files = (
 				D061F520282BC1E9004E5C25 /* Preview Assets.xcassets in Resources */,
 				D061F51D282BC1E9004E5C25 /* Assets.xcassets in Resources */,
+				D08212282830FD1500F74BA1 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
