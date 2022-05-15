@@ -11,6 +11,12 @@
 		D061F51B282BC1E4004E5C25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061F51A282BC1E4004E5C25 /* ContentView.swift */; };
 		D061F51D282BC1E9004E5C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D061F51C282BC1E9004E5C25 /* Assets.xcassets */; };
 		D061F520282BC1E9004E5C25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D061F51F282BC1E9004E5C25 /* Preview Assets.xcassets */; };
+		D061F527282BC24B004E5C25 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061F526282BC24B004E5C25 /* IndexView.swift */; };
+		D061F529282BC287004E5C25 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061F528282BC287004E5C25 /* ScheduleView.swift */; };
+		D061F52B282BC296004E5C25 /* LiveFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061F52A282BC296004E5C25 /* LiveFeedView.swift */; };
+		D061F52D282BC2A1004E5C25 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061F52C282BC2A1004E5C25 /* HistoryView.swift */; };
+		D061F52F282BC2A8004E5C25 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061F52E282BC2A8004E5C25 /* SettingsView.swift */; };
+		D061F531282BC452004E5C25 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D061F530282BC452004E5C25 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		D061F51A282BC1E4004E5C25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D061F51C282BC1E9004E5C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D061F51F282BC1E9004E5C25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D061F526282BC24B004E5C25 /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
+		D061F528282BC287004E5C25 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		D061F52A282BC296004E5C25 /* LiveFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveFeedView.swift; sourceTree = "<group>"; };
+		D061F52C282BC2A1004E5C25 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		D061F52E282BC2A8004E5C25 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D061F530282BC452004E5C25 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				D061F518282BC1E4004E5C25 /* SmartGarageApp.swift */,
 				D061F51A282BC1E4004E5C25 /* ContentView.swift */,
+				D061F530282BC452004E5C25 /* MainView.swift */,
+				D061F528282BC287004E5C25 /* ScheduleView.swift */,
+				D061F52A282BC296004E5C25 /* LiveFeedView.swift */,
+				D061F52C282BC2A1004E5C25 /* HistoryView.swift */,
+				D061F52E282BC2A8004E5C25 /* SettingsView.swift */,
+				D061F526282BC24B004E5C25 /* IndexView.swift */,
 				D061F51C282BC1E9004E5C25 /* Assets.xcassets */,
 				D061F51E282BC1E9004E5C25 /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D061F52D282BC2A1004E5C25 /* HistoryView.swift in Sources */,
+				D061F531282BC452004E5C25 /* MainView.swift in Sources */,
 				D061F51B282BC1E4004E5C25 /* ContentView.swift in Sources */,
+				D061F52B282BC296004E5C25 /* LiveFeedView.swift in Sources */,
+				D061F529282BC287004E5C25 /* ScheduleView.swift in Sources */,
+				D061F52F282BC2A8004E5C25 /* SettingsView.swift in Sources */,
+				D061F527282BC24B004E5C25 /* IndexView.swift in Sources */,
 				D061F519282BC1E4004E5C25 /* SmartGarageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

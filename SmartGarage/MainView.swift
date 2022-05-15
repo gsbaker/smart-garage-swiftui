@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     var body: some View {
         TabView {
-            IndexView()
+            ContentView()
                 .tabItem {
-                    Label("Garage", systemImage: "car.fill")
+                    Label("Garage", systemImage: "rectangle.split.3x3.fill")
                 }
             ScheduleView()
                 .tabItem {
-                    Label("Schedule", systemImage: "clock.arrow.circlepath")
+                    Label("Schedule", systemImage: "line.3.horizontal")
                 }
             LiveFeedView()
                 .tabItem {
@@ -34,8 +34,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
     }
 }
