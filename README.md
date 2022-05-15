@@ -2,4 +2,4 @@
 
  Smart Garage application for iOS created using SwiftUI.
 
-![Screenshot](screenshot.png)
+<img src="screenshot.png" alt="screenshot" width="400px"> 
